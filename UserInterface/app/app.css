@@ -29,17 +29,16 @@
   padding: 0;
 }
 
-.a{
-    top: 10%;
-    left: 50%;
-    border: solid;
-    content: " ";
-    height: 0;
-    width: 0;
-    position: absolute;
+.signInTitle{
+	color: white;
+	position: absolute;
     pointer-events: none;
-    border-color: rgba(10,13,15,0);
-    border-top-color: #181818;
-    border-width: 6px;
-    margin-left: -6px
+    position: static;
+   	border-top: 3px solid #bf0000;
+    text-align: center;
+    font-size: 100%;
+    background-color: black;
+	font-size :20;
+    width: 100%;
+    padding: 10px;
 }
