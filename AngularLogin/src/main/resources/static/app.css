@@ -1,0 +1,199 @@
+/* app css stylesheet */
+
+
+.form-input{
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #333333;
+    display: block;
+    font-size: 14px;
+    height: 44px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+    margin-top: -21px; 
+}
+
+.forgot {
+    padding-top: 12px;
+    color: #790000;
+    float: right;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: -12px; 
+    font-size: 13
+}
+
+.forgot:hover {
+    padding-top: 12px;
+    color: #790000;
+    float: right;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: -12px; 
+    font-size: 13
+}
+
+.forgot:active {
+    padding-top: 12px;
+    color: #790000;
+    float: right;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: -12px; 
+    font-size: 13
+}
+
+.signInTitle{
+	color: white;
+	position: absolute;
+    pointer-events: none;
+    position: static;
+   	border-top: 3px solid #bf0000;
+    text-align: center;
+    font-size: 100%;
+    background-color: black;
+	font-size :20;
+    width: 100%;
+    padding: 10px;
+    margin-bottom:7%
+}
+
+.signInButton {
+	 margin-top: 35px; 	
+	 margin-left: -80px; 	
+	-moz-box-shadow:inset 0px 0px 0px -2px #f29c93;
+	-webkit-box-shadow:inset 0px 0px 0px -2px #f29c93;
+	box-shadow:inset 0px 0px 0px -2px #f29c93;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fe1a00), color-stop(1, #ce0100) );
+	background:-moz-linear-gradient( center top, #fe1a00 5%, #ce0100 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe1a00', endColorstr='#ce0100');
+	background-color:#fe1a00;
+	-webkit-border-top-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	border-top-left-radius:3px;
+	-webkit-border-top-right-radius:3px;
+	-moz-border-radius-topright:3px;
+	border-top-right-radius:3px;
+	-webkit-border-bottom-right-radius:3px;
+	-moz-border-radius-bottomright:3px;
+	border-bottom-right-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-bottom-left-radius:3px;
+	text-indent:0px;
+	border:1px solid #d11f1b;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:normal;
+	font-style:normal;
+	height:48px;
+	line-height:48px;
+	width:500px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:0px 0px 0px #b23e35;
+}
+
+.registerButton {
+	margin-top: 45px; 	
+	 margin-left: -80px; 	
+	-moz-box-shadow:inset 0px 0px 0px -2px #808080;
+	-webkit-box-shadow:inset 0px 0px 0px -2px #808080;
+	box-shadow:inset 0px 0px 0px -2px #808080;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #7f7f7f), color-stop(1, 676767) );
+	background:-moz-linear-gradient( center top, #fe1a00 5%, #626262 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7f7f7f', endColorstr='676767');
+	background-color:#7f7f7f;
+	-webkit-border-top-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	border-top-left-radius:3px;
+	-webkit-border-top-right-radius:3px;
+	-moz-border-radius-topright:3px;
+	border-top-right-radius:3px;
+	-webkit-border-bottom-right-radius:3px;
+	-moz-border-radius-bottomright:3px;
+	border-bottom-right-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-bottom-left-radius:3px;
+	text-indent:0px;
+	border:1px solid #808080;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:normal;
+	font-style:normal;
+	height:48px;
+	line-height:48px;
+	width:500px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:0px 0px 0px #808080;
+}
+
+.signInButton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #e6100b), color-stop(1, #e6100b) );
+	background:-moz-linear-gradient( center top, #7c16cb 5%, #a53df6 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e6100b', endColorstr='#e6100b');
+	background-color:#e6100b;
+}
+
+.registerButton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #7e7e7e), color-stop(1, #7e7e7e) );
+	background:-moz-linear-gradient( center top, #7c16cb 5%, #a53df6 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7e7e7e', endColorstr='#7e7e7e');
+	background-color:#7e7e7e;
+}
+
+.registerButton:active {
+	position:relative;
+	top:1px;
+}
+
+.registerButton:active {
+	position:relative;
+	top:1px;
+}
+
+.line-wrapper{
+    display: block;
+    margin: -26px auto 0 auto;
+    margin-top: -30px;
+    width: 15%;
+    background-color: #FFF;
+    font-size: 16px
+}
+
+.line{
+	margin: 0 auto;
+    width: 100%;
+    border-top: 1px solid #d0d0d0
+}
+
+.loginpageline{
+	margin-top: 45px; 	
+	 margin-left: -80px; 
+}
+
+.termsSection {
+    float: left;
+    padding: 5px 0 0 10px
+}
+
+.termsSection div {
+    float: left;
+    margin-right: 5px
+}
+
+.termsSection div input {
+    width: 15px;
+    height: 15px
+}
