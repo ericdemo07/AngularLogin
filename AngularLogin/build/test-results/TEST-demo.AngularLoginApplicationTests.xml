@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="demo.AngularLoginApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2015-10-01T05:01:33" hostname="RIDOC-LPT021" time="0.0">
+  <properties/>
+  <testcase name="contextLoads" classname="demo.AngularLoginApplicationTests" time="0.0"/>
+  <system-out><![CDATA[10:31:30.058 [Test worker] DEBUG o.s.t.c.j.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class demo.AngularLoginApplicationTests].
+10:31:30.068 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating TestContextBootstrapper from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+10:31:30.088 [Test worker] DEBUG o.s.t.c.s.DefaultTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@686af8ae declaringClass = 'demo.AngularLoginApplicationTests', classes = '{class demo.AngularLoginApplication}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+10:31:30.098 [Test worker] DEBUG o.s.t.c.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [demo.AngularLoginApplicationTests]
+10:31:30.108 [Test worker] DEBUG o.s.t.c.s.DefaultTestContextBootstrapper - @TestExecutionListeners is not present for class [demo.AngularLoginApplicationTests]: using defaults.
+10:31:30.118 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+10:31:30.128 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+10:31:30.128 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+10:31:30.138 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@cf2d384, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3052e3bc, org.springframework.test.context.support.DirtiesContextTestExecutionListener@64d26ac0]
+10:31:30.138 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [demo.AngularLoginApplicationTests]
+10:31:30.138 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [demo.AngularLoginApplicationTests]
+10:31:30.138 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [demo.AngularLoginApplicationTests]
+10:31:30.138 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [demo.AngularLoginApplicationTests]
+10:31:30.148 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [demo.AngularLoginApplicationTests]
+10:31:30.148 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [demo.AngularLoginApplicationTests]
+10:31:30.148 [Test worker] DEBUG o.s.t.c.s.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@32c505a8 testClass = AngularLoginApplicationTests, testInstance = demo.AngularLoginApplicationTests@79ecda36, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@3dc97cf9 testClass = AngularLoginApplicationTests, locations = '{}', classes = '{class demo.AngularLoginApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]]].
+10:31:30.779 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+10:31:30.779 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+10:31:30.789 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+10:31:30.789 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [integrationTest] PropertySource with search precedence immediately lower than [systemEnvironment]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.2.6.RELEASE)
+
+2015-10-01 10:31:31.119  INFO 6292 --- [    Test worker] demo.AngularLoginApplicationTests        : Starting AngularLoginApplicationTests on RIDOC-LPT021 with PID 6292 (started by Ayush Shukla in C:\Users\Ayush Shukla\git\AngularLogin\AngularLogin)
+2015-10-01 10:31:31.179  INFO 6292 --- [    Test worker] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3bd8c66b: startup date [Thu Oct 01 10:31:31 IST 2015]; root of context hierarchy
+2015-10-01 10:31:33.581  INFO 6292 --- [    Test worker] demo.AngularLoginApplicationTests        : Started AngularLoginApplicationTests in 2.792 seconds (JVM running for 4.808)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
